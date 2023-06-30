@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        #lab1
+        {
+            border: 2px solid black;
+            width: 50%;
+            margin: 50px;
+            padding: 20px;
+            display: block;
+        }
+        .div1
+        {
+            border: 2px solid blue;
+            margin: 20px;
+            width: 40%;
+            display: inline;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="JsJSONsyr.html">Go to JSON</a> <br>
+        <a href="CssPosition.html">Go to Position</a> <br>
+        <a href="Displayexercise.html">Go to Display Exercise</a> <br>
+    </nav>
+    <label id="lab1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In minima quasi repudiandae eaque odio ducimus delectus ipsam, unde quidem, saepe enim vel consectetur doloremque dolor autem? Ratione laudantium enim molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, quis ut eum eius excepturi magni. Ducimus dolore natus quo, accusantium consequuntur quisquam vel ut veniam nihil velit aut voluptatum facere?</label>
+    <style>
+        .dis-example
+        {
+            display: none;
+        }
+    </style>
+    <hr>
+    <label class="dis-example">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore id perspiciatis quod commodi sint dolore similique. Perferendis voluptate repudiandae, culpa, reprehenderit vel molestias provident amet quas neque quos iste. Inventore.</label>
+    <hr>
+
+    <div class="div1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, beatae iure corrupti consequuntur quam maxime, perspiciatis iste excepturi accusantium dignissimos quasi illum incidunt sunt ipsum culpa suscipit at. Dolorem, ipsam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, eum adipisci harum explicabo totam amet hic laudantium similique praesentium reprehenderit fugiat excepturi, recusandae voluptas dolorum est itaque maxime sint minima.
+    </div>
+
+    <hr>
+    <style>
+        #product-card
+        {
+            width: 300px;
+            margin: 20px;
+            box-shadow: 1px 1px 8px 4px rgba(167, 163, 163, 0.7);
+            border-radius: 20px;
+            overflow: hidden;
+            padding: 20px;
+            font-family: calibri;
+            display: inline-block;
+            background-color: rgb(251, 250, 251);
+        }
+        td
+        {
+            min-width: 105px;
+        }
+        .detail
+        {
+            text-decoration: none;
+            display: block;
+            border: 2px solid black;
+            padding: 8px 20px 8px 10px;
+            width: fit-content;
+            font-weight: bold;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            margin: auto;
+            transform: translate(-30%,0);
+        }
+        .detail:hover
+        {
+            background-color: gold;
+            color: black;
+            border: 2px solid black;
+        }
+    </style>
+    <div id="product-card">
+        <img src="Nitro5_AN51555_WP_RGBKBUK_1_Bl-1.webp" width="100%" style="transform: scale(1.1); margin-bottom: 10px;">
+        <table border="0" width="20%" height="160px">
+            <tr>
+                <td><label style="float:right">Laptop: </label></td>
+                <td>Nitro5 Gaming</td>
+            </tr>
+            <tr>
+                <td><label style="float: left;">Brand:</label></td>
+                <td>Acer</td>
+            </tr>
+            <tr>
+                <td><label style="display: block; width: fit-content; margin:auto ;">Specification:</label></td>
+                <td>CPU: i5 11gen <br>
+                    GPU: RTX 3050 4GB</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"><a href="" class="detail">More Detail</a></td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        ScrollReveal().reveal('#product-card',
+        {
+            delay: 400,
+            duration: 2000,
+            origin: 'left',
+            distance: '400px',
+            reset: true
+        });
+    </script>
+    <div id="product-card">
+        <img src="Nitro5_AN51555_WP_RGBKBUK_1_Bl-1.webp" width="100%" style="transform: scale(1.1); margin-bottom: 10px;">
+        <table border="0" width="20%" height="160px">
+            <tr>
+                <td><label style="float:right">Laptop: </label></td>
+                <td>Nitro5 Gaming</td>
+            </tr>
+            <tr>
+                <td><label style="float: left;">Brand:</label></td>
+                <td>Acer</td>
+            </tr>
+            <tr>
+                <td><label style="display: block; width: fit-content; margin:auto ;">Specification:</label></td>
+                <td>CPU: i5 11gen <br>
+                    GPU: RTX 3050 4GB</td>
+                
+            </tr>
+            <tr>
+                <td colspan="2"><a href="" class="detail">More Detail</a></td>
+            </tr>
+        </table>
+    </div>
+    <style>
+        .mydiv1
+        {
+            border: 2px solid red;
+            width: 460px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .mydiv2
+        {
+            border: 2px solid blue;
+            width: 340px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .mydiv3
+        {
+            border: 2px solid gold;
+            width: 410px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+    <hr style="border-style: none;">
+    <div class="mydiv1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repudiandae architecto perferendis quisquam ratione, quos placeat fugiat aliquam odio provident, animi ullam deserunt a delectus explicabo voluptates eaque dolorum corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam dolorum eveniet blanditiis, voluptas aliquam vero tempora hic beatae, sequi quasi magni impedit alias rerum eos saepe minus corporis non?
+    </div>
+    <div class="mydiv2">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error velit aperiam perspiciatis cum, repellat eveniet maxime deserunt, culpa, eius architecto animi molestiae voluptatibus placeat. Fugit sit dolorum vero sint laboriosam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima exercitationem ad autem eaque quo et ducimus quis voluptatem quos porro facere, dolorem tempore voluptas soluta ab repudiandae unde voluptatibus. Fugiat.
+    </div>
+    <div class="mydiv3">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quos odio officia quasi quibusdam animi fugiat, excepturi nobis nihil reiciendis incidunt soluta porro, quaerat corporis nam. Consectetur, dolores sint! Qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consectetur, architecto sint atque officia, laboriosam nemo, nisi error laudantium perspiciatis vel in quo! Perspiciatis laborum architecto rem excepturi, quidem quis. naythuaung
+    </div>
+
+    <hr>
+    <style>
+        #dis-flex
+        {
+            border: 2px solid blue;
+            padding: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;            
+            align-items: center;
+            row-gap: 20px;
+        }
+        #dis-flex > div
+        {
+            border: 2px solid red;
+        }
+    </style>
+    <h2>Flex</h2>
+    <section id="dis-flex">
+        <div style="width: 350px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, vel facere et corrupti, quaerat, animi voluptatum iusto minus voluptates commodi rem illum aut ad optio qui harum inventore corporis nulla!
+        </div>
+        <div style="width: 350px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat maxime officia molestiae similique porro quasi, pariatur impedit sapiente inventore, culpa accusantium tempore. Nisi error qui officiis aliquam, eaque sit ex. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum nisi, cum, dolorem ratione consequuntur, culpa dolorum officiis nulla expedita vel deserunt laboriosam quidem dolore! Praesentium reiciendis incidunt amet aut a!
+        </div>
+        <div style="width: 350px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo laboriosam quae beatae quaerat reprehenderit sequi cumque, doloribus autem dolor non, sapiente iste maiores voluptatibus blanditiis? Modi nam unde ratione?
+        </div>
+    </section>
+</body>
+</html>

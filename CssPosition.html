@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position</title>
+</head>
+<body>
+    <h2 align="center">Position Absolute</h2>
+    <div style="background-color: rgb(9, 62, 114); color: white; padding: 10px; text-align: justify;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam cumque, magni facilis dicta cum aut consequuntur. Adipisci nemo laudantium sed accusamus provident iusto itaque tenetur eius error? Nihil, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore autem aut error, totam nostrum architecto incidunt iusto quisquam quidem recusandae molestias sapiente pariatur qui quod nobis quas culpa in odit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem possimus modi, culpa sequi perspiciatis fugit necessitatibus ullam commodi aut cupiditate quos quaerat non earum provident, deleniti quam at. Quas, aliquam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestias fugiat explicabo ipsum repellat veniam eaque, officia doloribus laboriosam enim tempora, accusamus modi rerum ipsa minus quisquam voluptatum! Laboriosam, doloremque!
+    </div>
+    <div style="background-color: black; 
+    color: white; 
+    padding: 8px; 
+    width: fit-content; 
+    position: absolute; 
+    top: 30px; 
+    right: 10px; 
+    border-radius: 10px;">This is abosolute text</div>
+    <hr>
+
+    <style>
+        .div-rel
+        {
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+            position: relative;
+            /* float: right; */  
+
+        }
+        .div-rel > div
+        {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: gold;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    </style>
+    
+    <div class="div-rel">
+        <div>This is Absolute inside Relative</div>
+    </div>
+
+    <hr>
+    <div style="border: 2px solid gold; color: gold; width:fit-content; padding: 10px 20px; position: fixed;">This is Fixed</div>
+    <hr>
+    <hr>
+    <div style="border: 2px solid gold; color: gold; width:fit-content; padding: 10px 20px; position: sticky; top: 20px; border-radius: 10px;">This is Sticky</div>
+    <hr>
+
+    <section style="background-color: rgba(0, 0, 0, .8); height: 1000px;"></section>
+    <div style="border: 6px dashed red; height: 100px; position: relative;">
+        <p style="position: absolute; bottom: 0; left: 47%;">This is footer</p>
+    </div>
+</body>
+</html>
+
+<!-- 
+    Position
+    --------
+    Static
+    Relative
+    Absolute    top,right,bottom,left
+    Fixed
+    Sticky
+
+    Top
+    Right
+    Bottom
+    Left
+ -->
